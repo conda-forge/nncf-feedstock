@@ -11,7 +11,7 @@ source:
   sha256: d1877192b44d36055f39fe212ca0abf04416bac1ff81be1b6cda0fbe82c12ac5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,6 +36,7 @@ requirements:
     - matplotlib-base
     # - matplotlib-base >=3.3.4  # [py>=37]
     # - matplotlib-base >=3.3.4,<3.4  # [py<37]
+    - openvino-telemetry >=2023.1.1
     - pandas
     # - pandas >=1.1.5  # [py>=37]
     # - pandas >=1.1.5,<1.2  # [py<37]
@@ -50,6 +51,8 @@ test:
   imports:
     - nncf
     - nncf.api
+  # commands:
+  #   - pip check
   requires:
     - pip
 
