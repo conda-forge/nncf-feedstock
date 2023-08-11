@@ -47,8 +47,8 @@ test:
   imports:
     - nncf
     - nncf.api
-  commands:
-    - pip check
+#  commands:
+#    - pip check  # won't work because conda's version of ninja does not get registere in pip
   requires:
     - pip
 
