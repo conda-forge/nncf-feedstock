@@ -13,12 +13,13 @@ source:
 build:
   number: 2
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m build -C--global-option=--release
 
 requirements:
   host:
     - pip
     - python >=3.7
+    - build
   run:
     - jsonschema >=3.2.0
     - jstyleson >=0.0.2
