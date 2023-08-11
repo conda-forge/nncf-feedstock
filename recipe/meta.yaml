@@ -25,12 +25,12 @@ requirements:
     - natsort >=7.1.0
     - networkx >=2.6, <=2.8.2
     - ninja >=1.10.0.post2, <1.11
-    - numpy >1.19.2, <1.25
+    - numpy >1.19.2, <1.24
     - openvino-telemetry >=2023.1.0
     - packaging >=20.0
     - pandas >=1.1.5, <2.1
     - pip
-    - pymoo >=0.6.0
+    - pymoo ==0.5.0
     - psutil
     - pydot >=1.4.1
     - pyparsing <3.0
