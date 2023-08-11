@@ -48,7 +48,7 @@ test:
     - nncf
     - nncf.api
 #  commands:
-#    - pip check  # won't work because conda's version of ninja does not get registere in pip
+#    - pip check  # won't work because conda's version of ninja does not get registered in pip - https://github.com/mesonbuild/meson-python/issues/60, https://github.com/pypa/pip/issues/11157
   requires:
     - pip
 
