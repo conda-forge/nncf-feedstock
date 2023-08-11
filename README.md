@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@sarthakpati](https://github.com/sarthakpati/)
+* [@vshampor](https://github.com/vshampor/)
 
