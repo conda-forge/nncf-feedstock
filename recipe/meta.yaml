@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.7
-    - build
+    - python-build
     - setuptools >=59.5.0
   run:
     - jsonschema >=3.2.0
