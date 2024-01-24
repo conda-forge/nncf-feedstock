@@ -11,7 +11,7 @@ source:
   sha256: 5affe2c33d00feef54f1fc80184e5b79c16afcb8e28f07d71e89aa10cc11f046
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --install-option=--release
 
@@ -26,16 +26,15 @@ requirements:
     - jsonschema >=3.2.0
     - jstyleson >=0.0.2
     - natsort >=7.1.0
-    - networkx >=2.6, <=2.8.2
+    - networkx >=2.6, <=3.1
     - ninja >=1.10.0.post2, <1.11
     - numpy >=1.19.1, <1.27
     - openvino-telemetry >=2023.2.0
     - packaging >=20.0
-    - pandas >=1.1.5, <2.1
+    - pandas >=1.1.5, <2.2
     - pymoo >=0.6.0.1
     - psutil
     - pydot >=1.4.1
-    - pyparsing <3.0
     - rich >=13.5.2
     - python >=3.8
     - scikit-learn >=0.24.0
@@ -62,3 +61,4 @@ extra:
   recipe-maintainers:
     - sarthakpati
     - vshampor
+    - KodiaqQ
