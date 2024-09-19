@@ -1,5 +1,5 @@
 {% set name = "nncf" %}
-{% set version = "2.12.0" %}
+{% set version = "2.13.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5a1c9e3f9721b3b620766773acc504dae7f1de6e2f878311aec4e189c8d0a065
+  sha256: 2e8fb0ad0fac5acee7232fef652803be83c33847e33857f341655a629f88a89f
 
 build:
   number: 0
