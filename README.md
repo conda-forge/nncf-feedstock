@@ -144,6 +144,7 @@ Feedstock Maintainers
 =====================
 
 * [@KodiaqQ](https://github.com/KodiaqQ/)
+* [@alexsu52](https://github.com/alexsu52/)
 * [@sarthakpati](https://github.com/sarthakpati/)
 * [@vshampor](https://github.com/vshampor/)
 
