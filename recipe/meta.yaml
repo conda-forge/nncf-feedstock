@@ -1,5 +1,5 @@
 {% set name = "nncf" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cabfdc32f42a04c6c106906d1b248ace0ed0748c46b193529ec7b4e945baa374
+  sha256: 5dd42d80d0dd8faa316cfb7773defc70f76d9be6e9829005904580391660f4db
 
 build:
   number: 0
