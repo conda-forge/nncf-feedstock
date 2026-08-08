@@ -46,7 +46,9 @@ requirements:
 test:
   imports:
     - nncf
-    - nncf.common.api
+    - nncf.common
+    - nncf.data
+    - nncf.quantization
 #  commands:
 #    - pip check  # won't work because conda's version of ninja does not get registered in pip - https://github.com/mesonbuild/meson-python/issues/60, https://github.com/pypa/pip/issues/11157
   requires:
